@@ -1,0 +1,20 @@
+{
+  "name": "slack-export-archive",
+  "version": "1.0.0",
+  "description": "NodeJS app to export Slack message history, archive history as JSON files, and create readable HTML from the JSON files.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Cait Powell",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.14.1",
+    "async": "^2.6.0",
+    "colors": "^1.1.2",
+    "dotenv": "^4.0.0",
+    "fs": "0.0.1-security",
+    "jsonfile": "^4.0.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
