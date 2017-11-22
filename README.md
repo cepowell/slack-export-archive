@@ -1,4 +1,4 @@
-##Purpose
+## Purpose
 
 A NodeJS module that will perform some combination of the following tasks:
 
@@ -16,7 +16,7 @@ This option retrieves the chat history for the specified channel using the Slack
 
 This option requires that one of your organization's Slack admins exports and downloads your organization's chat history from [Slack itself](https://get.slack.help/hc/en-us/articles/201658943-Export-data-and-message-history). Then, this module will convert the exported history of the channel you specify to readable, styled HTML. (Admins can download a full archive of their organization's chat history; this archive includes messages older than your organization's most recent 10,000 messages.)
 
-##Usage Notes
+## Usage Notes
 
  1. Make sure Node and npm are installed on your machine.
  2. Download the code in this repository and navigate to the root directory.
